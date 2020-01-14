@@ -1,0 +1,20 @@
+{
+    "name": "backsterlite/bracketed",
+    "description": "This is a simple brackets inspector",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "backster",
+            "email": "backstercorp@gmail.com"
+        }
+    ],
+    "require": {
+        "php":">=5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Backsterlite\\Bracketed\\": "src\\"
+        }
+    }
+}
